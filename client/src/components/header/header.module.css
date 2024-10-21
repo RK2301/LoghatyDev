@@ -1,0 +1,74 @@
+
+
+.mynav{
+    border-bottom: 2px solid black;
+}
+
+    /* .nav-link{
+        font-size:40px;
+        color: red;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .nav-link:hover{
+        border: 2px solid black;
+        border-radius:20px;
+    } */
+
+
+.btnGrp{
+    background-color:transparent;
+    border: 2px solid black;
+    padding: 5px;
+    padding-bottom: 0px;
+}
+
+.lanBtn{
+    color: black;
+    background-color: transparent;
+    padding: 7px;
+    width: 100%;
+    cursor: pointer;
+    transition-duration: 500ms;
+}
+
+
+.checkedLang{
+    /* border: 2px solid black; */
+    background-image:  linear-gradient(to right, #C5ADC5, #B2B5E0) !important;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 2px ;
+}
+
+.lanBtn:checked{
+    font-style: italic;
+    border: 3px solid red;
+    font-size: xx-large;
+    background-color: red;
+}
+
+
+
+.NavBottomIcons{
+    color: black;
+}
+
+
+/********************Style Top Nav Bar for mobile*********************/
+
+.topNavBar{
+    border-bottom: 2px solid black;
+    max-height: 11vh;
+    background-image:  linear-gradient(to right, #C5ADC5, #B2B5E0) !important;
+    z-index: 2;
+}
+
+/**********************Style user dropdown div***************/
+.userDropDownDiv{
+    border-radius: 10px;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 2px 2px;
+}
+
+.dropDownLink{
+    color:black !important;
+}

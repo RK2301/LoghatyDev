@@ -1,0 +1,113 @@
+/**********Style Collapse Container***********************/
+.collapseControll{
+    background-color: transparent;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-top: 3%;
+}
+
+.collapseBtn{
+    background-color: transparent;
+    border-radius: 10px;
+    border: none;
+}
+.collapseBtn:focus{
+    border: 2px solid black;
+    background-image: linear-gradient(to right, #C5ADC5, #B2B5E0);
+    ;
+}
+
+/********************Style Course Card********************/
+.mycard {
+    background-color: transparent !important; 
+    border: 2px solid black !important;
+}
+.cardImg{
+    border-bottom: 2px solid black !important;
+    cursor: pointer;
+}
+.mycardHeader{
+    border-bottom: 2px solid black !important;
+}
+
+/**********************Style Links in card************************/
+.link{
+    color:black;
+    text-decoration: none;
+}
+.link:hover{
+    color: black;
+    font-weight:bolder;
+    text-decoration: underline;
+}
+.nav-link{
+    color: black !important;
+}
+
+/**********************Style List item In CourseDetail List*************/
+.myListItem{
+    background-color: transparent !important;
+}
+
+/***********************Style List Item In Lessons******************/
+.listItemLesson{
+    background-color: transparent !important;
+    border-left:none; border-right: none; border-top: none;
+}
+.listItemLesson:hover{
+    background-image: linear-gradient(to bottom, #C5ADC5, #B2B5E0);
+}
+
+/*********************Style Button Group *****************/
+.btnGroup{
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 10px !important;
+    width: 100%;
+    padding: 0px;
+}
+.btnGroup:hover{
+    background-image: linear-gradient(to right, #C5ADC5, #B2B5E0);
+}
+.groupBtn{
+    border: none;
+    border-radius: 10px;
+}
+
+
+/*****************Style  a link in lessons for download files**************/
+
+.download-link{
+    color: black;
+    text-decoration: none;
+}
+.download-link:hover{
+    text-decoration: underline;
+    color: black;
+    cursor: pointer;
+}
+
+/*********************Style note text in cards *****************/
+
+.note_text{
+    font-size:medium;
+}
+
+/***********************Style The link to exrecises lang *******************/
+.lang_link{
+    border: 2px solid black;
+    border-radius: 10px ;
+    background-color: transparent;
+}
+.lang_link:hover{
+    background-image: linear-gradient(to right, #C5ADC5, #B2B5E0);
+}
+
+.lang_btn{
+    color: black;
+    text-decoration: none;
+}
+
+.lang_btn:hover{
+    color:black
+}

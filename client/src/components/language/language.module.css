@@ -1,0 +1,185 @@
+/**************Style Th econtainer******************/
+.container{
+    background-image: linear-gradient(to right, #C5ADC5, #B2B5E0);
+     /* background-color:#5ee0ae */
+}
+
+
+.userLogo{
+    font-size: 50px;
+    color: black
+}
+
+.sideLogo{
+    font-size: 25px;
+    color: black;
+}
+
+.mainContent{
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+/******************Style Button Groups*****************/
+.btnGroup{
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.lanBtn{
+    color:black;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: transparent;
+    transition-duration: 500ms;
+}
+
+.lanBtn:hover, .lanBtn:focus{
+    background-image: linear-gradient(to right, #C5ADC5, #B2B5E0);
+}
+
+.circleBtn{
+    border-radius: 50%;
+    padding-left: 7px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    padding-right: 7px;
+    border: 2px solid black;
+    width: 20%;
+}
+
+.circleBtn:hover{
+    background-image: linear-gradient(to right, #C5ADC5, #B2B5E0);
+
+}
+
+
+.langLink{
+    color: black;
+    text-decoration: none;
+}
+.langLink:hover{
+    color: black;
+}
+
+/*******************Style option button **************/
+.optionBtn{
+    width: 100%;
+    border-radius: 10px;
+    border: transparent;
+    padding: 1%;
+}
+
+.optionBtnChecked{
+    background-image: linear-gradient(to right, #C5ADC5, #B2B5E0);
+    font-weight: bold;
+}
+
+/*****************Style button for correct uncorrect answers ***********/
+.correct{
+    transition-duration: 500ms;
+    background-image: linear-gradient(to right, #64be68, #64be68) !important ;
+}
+
+.uncorrect{
+    transition-duration: 500ms;
+    background-image: linear-gradient(to right, #da1919, #da1919)  !important;
+}
+
+.choosenAnswer{
+    background-image: linear-gradient(to right, #C5ADC5, #B2B5E0);
+    font-weight: bold;
+}
+
+.optionBtn:disabled {
+    /* Resetting default styles */
+    background-color: none;
+    color: inherit;
+    border: none;
+    /* Add any additional styling you desire */
+  }
+
+  .langBar{
+    background-image: linear-gradient(to right, #C5ADC5, #B2B5E0);
+    color:black;
+    font-weight: bold;
+    transition-duration: 2000ms;
+  }
+
+  /**********************Styles Buttons for flash card*************/
+  .checkFlashCard{
+    font-size: 30px;
+  }
+  .xMarkFlashCard{
+    font-size: 30px;
+  }
+
+  .xMarkButton{
+    border: none;
+    border-radius: 10px;
+    height: 100%;
+    transition-duration: 600ms;
+    color: goldenrod;
+    background-color: transparent;
+    width: 100%;
+  }
+
+  .xMarkButton:hover{
+    background-color: goldenrod;
+    color: black;
+  }
+
+  .checkFlashCardButton{
+    border: none;
+    border-radius: 10px;
+    height: 100%;
+    transition-duration: 600ms;
+    color: #64be68;
+    background-color: transparent;
+    width: 100%;
+
+  }
+
+  .checkFlashCardButton:hover{
+    background-color: #64be68;
+    color: black;
+  }
+
+  /************************Style FlashCard Container******************/
+  .flashCard{
+    background-image: linear-gradient(to right, #C5ADC5, #B2B5E0);
+    transform-style:preserve-3d;
+    transform: perspective(1000px)  rotateY(var(--rotate-y, 0));
+    transition-duration:500ms;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.flashCard:hover{
+    box-shadow: 0 0 5px 2px black;
+}
+
+.flashCard.flip{
+    --rotate-y: 165deg ;
+    box-shadow: 0 0 10px 1px black;
+}
+
+.flashCard .front, .flashCard .back{
+    backface-visibility: hidden;
+}
+
+.flashCard .back{
+    transform: rotateY(180deg);
+}
+
+.flashCard .front{
+    font-size: xx-large;
+}
+
+.flashCardOption{
+    font-size:larger;
+    margin-bottom: 10%;
+}

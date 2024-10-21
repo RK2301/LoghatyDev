@@ -1,0 +1,43 @@
+
+.side-bar{
+    position:absolute;
+    left: 0;
+    top: 40%;
+    width: 7%;
+    height: 40vh;
+    background-color: transparent;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border: 2px solid black;
+    border-left: none;
+    transition-duration: 500ms;
+}
+
+.side-bar-link, .side-bar-link:hover{
+    color: black;
+}
+
+.circleButton{
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 50%;
+    transition-duration: 500ms;
+}
+.circleButton:hover{
+    background-color: #B2B5E0;
+}
+
+@media (max-width:765px) {
+    .side-bar {
+        width: 15%;
+        top: 35%;
+    }
+  }
+
+  .shiftButton ,.shiftButton:hover, .shiftButton:focus{
+    background-color: transparent;
+    border: none;
+  }
+
+

@@ -1,0 +1,67 @@
+.tabelBtn{
+    border: none;
+    background-color: transparent;
+    font-size: 18px;  
+}
+.tabelBtn:focus{
+    background-image:  linear-gradient(to right, #B2B5E0, #C5ADC5);
+    color: black;
+    border-radius: 10px;
+    border: 2px solid black
+}
+/* .tabelBtn:hover{
+  border:none;
+  background-color: transparent;
+  color: black;
+} */
+.teacherCard{
+    background-color: transparent;
+    border: 2px solid black;
+}
+.cardHeader{
+    border-bottom-style:none;
+}
+
+/*
+Styling teacher tabel
+*/
+.teacherTable thead{
+    background-color: #B2B5E0;
+    border-bottom: 2px solid black;
+}
+.teacherTable th.firstTh{
+    border-radius:10px 0 0 10px;
+  }
+  
+.teacherTable th.lastTh{
+    border-radius:0 10px 10px 0;
+  }
+
+.teacherTable tr:nth-child(even){
+    background-color:none;
+  }
+.teacherTable  tr {
+   border-bottom:1.4px solid black;
+  }
+ .teacherTable  tr:hover {
+  background-image:  linear-gradient(to right, #B2B5E0, #C5ADC5);
+}
+
+/**
+Styling tabel header buttons
+*/
+.htableBtn{
+  background-color: transparent;
+  border: 2px solid black;
+  color: black;
+}
+.htableBtn:hover{
+  background-color: transparent;
+  color: black;
+  border-color:black ;
+  font-style: italic;
+}
+.htableBtn:focus{
+  background-color: black;
+  color:#B2B5E0;
+}

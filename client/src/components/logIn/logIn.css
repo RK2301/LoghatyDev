@@ -1,0 +1,14 @@
+.col-css{
+    background-color: #B2B5E0;
+    border-radius:20px;
+}
+.homeCont{
+    background-image:url('./back4.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+.invalid-input{
+    border-radius: 20px;
+    border: 2px solid red;
+}

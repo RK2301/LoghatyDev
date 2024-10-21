@@ -1,0 +1,369 @@
+@media (min-width:765px) {
+  #sidebar {
+    position: fixed;
+    min-height: 100vh !important;
+    z-index: 100;
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+    padding-left: 20px;
+    width: 20%;
+  }
+}
+
+
+/************Full Calendar Style**************/
+:root {
+  --fc-border-color: black;
+  --fc-today-bg-color: rgba(255, 220, 40, 0.15);
+}
+
+.fc{
+  border: red
+}
+.fc-timeGrid-time.fc-timeGrid-slot {
+  border-bottom: red;
+}
+
+
+
+#appContainer {
+  background-image: linear-gradient(to right, #C5ADC5, #B2B5E0);
+  min-height: 100vh;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.mainRow {
+  min-height: 100vh;
+}
+
+@media (min-width:765px) {
+  .mainRow {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
+@media (max-width:765px) {
+  .mainRow {
+    padding-top: 10vh;
+    padding-bottom: 7vh;
+  }
+}
+
+.scroll-content {
+
+  max-height: 50vh;
+  overflow-y: scroll;
+
+}
+
+.scroll-inner {
+  flex: 1 1 auto;
+  overflow-y: scroll;
+
+}
+
+
+#page-content-wrapper {
+  min-width: 0;
+  width: 100%;
+}
+
+.subBtn {
+  border-radius: 10px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: transparent;
+}
+
+.subBtn:hover {
+  font-weight: bolder;
+  font-style: italic;
+}
+
+.invalid-input {
+  border-radius: 20px;
+}
+
+/******************************Styling Tables**************************************/
+.myTable thead {
+  background-color: #B2B5E0;
+  border-bottom: 2px solid black;
+}
+
+.myTable th.firstTh {
+  border-radius: 10px 0 0 10px !important;
+}
+
+.myTable th.lastTh {
+  border-radius: 0 10px 10px 0;
+}
+
+.myTable tr:nth-child(even) {
+  background-color: none;
+}
+
+.myTable tr {
+  border-bottom: 1.4px solid black;
+}
+
+.myTable tr:hover {
+  background-image: linear-gradient(to right, #B2B5E0, #C5ADC5);
+}
+
+/***********************Styling the icons****************************/
+.error-icon {
+  color: black;
+  font-size: 100px;
+}
+
+.refresh-icon {
+  font-size: 25px;
+}
+
+.refresh-icon:hover {
+  color: #B2B5E0;
+}
+
+.error-icon-modal {
+  font-size: 60px;
+  color: red;
+}
+
+.basic-icon {
+  color: black;
+  font-size: larger;
+}
+
+.normal-icon {
+  color: black;
+  font-size: 16px;
+}
+
+.small-icon {
+  color: black;
+  font-size: medium;
+}
+
+/******************************Styling the buttons*********************/
+.myButton {
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 5px;
+  color: black;
+}
+
+.myButton:hover {
+  background-color: black;
+  color: #B2B5E0;
+}
+
+.myButton:focus {
+  font-style: italic;
+}
+
+.dangerBtn {
+  width: 100%;
+  padding: 10px;
+}
+
+.dangerBtn:hover,
+.dangerBtn:focus {
+  background-color: transparent;
+  color: red;
+  border: 2px solid red
+}
+
+.dangerBtn:focus {
+  box-shadow: 0px 0px 0px 2px;
+}
+
+
+/******************************************Style Button With no border ***************/
+
+.secondBtn {
+  border: none;
+  background-color: transparent;
+  font-size: 18px;
+  transition-duration: 100ms;
+  width: 100%;
+}
+
+.secondBtn:focus {
+  background-image: linear-gradient(to right, #B2B5E0, #C5ADC5);
+  color: black;
+  border-radius: 10px;
+  border: 2px solid black
+}
+
+.secondBtn:hover {
+  background-color: transparent;
+  border-radius: 10px;
+}
+
+/*****************************************Table Buttons ***************************/
+.tableBtn {
+  border: 2px solid transparent;
+  background-color: transparent;
+  border-radius: 10px;
+  font-size: 18px;
+  transition-duration: 500ms;
+}
+
+.tableBtn:focus {
+  background-image: linear-gradient(to right, #B2B5E0, #C5ADC5);
+  color: black;
+  border-radius: 10px;
+  border: 2px solid black;
+  /* transform: scale(1.5); */
+}
+
+/*******************************************Styling inputs************************/
+.myFormInput {
+  border: 2px solid black;
+  background-color: transparent;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.errmsg {
+  margin-bottom: 20px;
+}
+
+
+/**
+  Styling Modal
+*/
+
+.modal-header {
+  background-image: linear-gradient(to right, #C5ADC5, #B2B5E0);
+  border: 2px solid black;
+}
+
+.modal-body {
+  background-image: linear-gradient(to right, #C5ADC5, #B2B5E0);
+  border: 2px solid black;
+}
+
+.modal-footer {
+  background-image: linear-gradient(to right, #C5ADC5, #B2B5E0);
+  border: 2px solid black;
+}
+
+
+.teacherCard {
+  background-color: transparent;
+  border: 2px solid black;
+}
+
+.cardHeader {
+  border-bottom-style: none;
+}
+
+/***************************************Style Warning messages ****************************/
+.warningMsg {
+  font-size: small;
+}
+
+.active {
+  background-color: transparent;
+  color: black;
+}
+
+/*****************************************Style List******************************/
+.listDiv:last-child {
+  border-bottom: none;
+}
+
+.myListItem {
+  width: 100%;
+  padding: 10px;
+  -webkit-padding-start: 20px;
+  border-bottom: 1px solid black;
+}
+
+
+/**********************************Style Dropdown***************************/
+.myDropdown {
+  background-image: linear-gradient(to right, #C5ADC5, #B2B5E0) !important;
+  border: 2px solid black !important;
+}
+
+.myDropdownItem:last-child {
+  border: none !important;
+}
+
+.myDropdownItem {
+  background-color: transparent !important;
+  border-bottom: 1px solid black !important;
+}
+
+.dropdown-link {
+  color: black;
+  text-decoration: none;
+}
+
+.dropdown-link:hover {
+  text-decoration: underline;
+  color: black;
+  cursor: pointer;
+}
+
+/***************************Styling Teacher || Students main card *********************/
+.card_header {
+  border-bottom-style: none;
+}
+
+.mycard {
+  background-color: transparent !important;
+  border: 2px solid black !important;
+}
+
+.cardImg {
+  border-bottom: 2px solid black !important;
+  cursor: pointer;
+}
+
+.mycardHeader {
+  border-bottom: 2px solid black !important;
+}
+
+/* .nav-link{
+  background-color: transparent !important;
+  border: 2px solid black;
+  border-bottom: none;
+} */
+/* .nav{
+  border: 2px solid black;
+} */
+
+
+/*************For Future Use**********/
+
+/*
+  #sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    min-height: 100vh !important;
+    z-index: 100;
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+    padding-left:20px;
+  }
+  */
+
+
+/* #sidebar-wrapper{
+    min-height: 100vh !important;
+    width: 100vw;
+    margin-left: -1rem;
+    -webkit-transition: margin .25s ease-out;
+    -moz-transition: margin .25s ease-out;
+    -o-transition: margin .25s ease-out;
+    transition: margin .25s ease-out;
+  }
+  #sidebar-wrapper .sidebar-heading {
+    padding: 0.875rem 1.25rem;
+    font-size: 1.2rem;
+  } */

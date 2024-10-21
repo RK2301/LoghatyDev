@@ -1,0 +1,65 @@
+
+
+.mynav{
+    border-bottom: 2px solid black;
+}
+
+
+.nav-link:hover{
+    border: 2px solid black;
+    border-radius:10px;
+}
+
+
+.btnGrp{
+    background-color:transparent;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+
+/********************Styling the bottom navigation bar for mobile users*************************/
+.Mui-selected{
+    color:black;
+    font-weight: bold;
+}
+
+.MuiBottomNavigationAction-root{
+    font-size: larger;
+}
+
+.MuiBottomNavigationAction-label{
+   color: black;
+   font-size: larger;
+}
+
+.NavBottomIcons{
+    color: black;
+    font-size: 20px;
+}
+
+.MuiBottomNavigation-root{
+    background-image:  linear-gradient(to right, #C5ADC5, #B2B5E0);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-top: 2px solid black;
+    max-height: 7vh;
+    width:100%;
+    z-index:2;
+}
+
+/*****************************/
+
+.MuiAvatar-root:hover ,.MuiAvatar-root:focus {
+    box-shadow: 0 0 0 0.3rem #B2B5E0 ;
+}
+
+
+
+.myDropDownUI{
+    background-color: red;
+}
+
+
